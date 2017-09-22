@@ -1,0 +1,30 @@
+ 
+<div>
+      <header>
+          <div  *ngIf="flage" >
+        <h4 align='right'>{{authenticationResultForUser}}</h4>
+         
+          <menu-icons-example></menu-icons-example>
+            </div>
+      </header>
+    <P align='center'> wellcome to login page</P>
+ <div class="app" >
+            <div  *ngIf="flageHide" align='center'>
+                <div>
+                    <span>  UserName:</span>
+                    <input pInputText type="text" [(ngModel)]="userName" />
+            </div>
+            <div>
+                <span>  Password:</span>
+                <input pPassword type="password" [(ngModel)]="password"/>
+            </div>
+            <button  pButton type="button" (click)="authentication()" label="Login"></button>
+            <h4>{{authenticationResult}}</h4>
+        </div>
+   <div  *ngIf="flage" align='center'>
+        <h4>{{authenticationResult}}</h4>
+        <input-form-example></input-form-example>
+   </div>
+ </div>
+ </div>
+

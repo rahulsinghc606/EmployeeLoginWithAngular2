@@ -1,0 +1,18 @@
+.ui-button {
+background-color: teal;
+ }
+.app {
+    min-height: 500px;
+    margin-bottom: -271px; 
+}
+footer{
+    height: 30px;
+    background: orange;
+    bottom: 10px ;
+}
+header{
+    height: 40px;
+    width: 100%;
+    background: teal;
+}
+

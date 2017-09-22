@@ -1,0 +1,11 @@
+/** No CSS for this example */
+.menu-icon{ 
+    margin-right: inherit;
+    float: left;
+    display: block;
+    /* color: #f2f2f2; */
+    text-align: center;
+    padding: 10px 1300px;
+    text-decoration: none;
+    font-size: 25px;
+}
